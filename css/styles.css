@@ -2,6 +2,19 @@ body {
 	background: url(../images/new_year_background.png)
 }
 
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+
+.header-intro {
+	width: auto;
+}
+
+.quote-section {
+	width: 480px;
+}
+}
+
 .header-intro {
 	border-top: 20px solid #D7D1C6;
 	background: url(../images/sparkler.jpg) no-repeat center center fixed;
