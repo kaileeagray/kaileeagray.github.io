@@ -5,10 +5,11 @@ body {
 @media (max-width: 480px) {
 	.quote-section .mobile {
 		display: none;
-		background-color: red;
+		background: none;
 	}
 	.quote-section .desktop {
 		display: none;
+		background: none;
 	}
 }
 
@@ -16,7 +17,7 @@ body {
 	border-top: 20px solid #D7D1C6;
 	background: url(../images/sparkler.jpg) no-repeat center center fixed;
 	width: 100%;
-	height:auto;
+	height: auto;
 
 	padding: 200px 0px;
     -webkit-background-size: cover;
