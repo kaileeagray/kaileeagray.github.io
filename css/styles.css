@@ -1,11 +1,14 @@
 body {
-	background: url(../images/new_year_background.png)
+	background: url(../images/new_year_background.png);
 }
 
-@media (max-width: @iphone-screen) {
-	.header-intro {
-		background-attachment: scroll;
-}
+@media (max-width: 480px) {
+	.quote-section .mobile {
+		display: block;
+	}
+	.quote-section .desktop {
+		display: none;
+	}
 }
 
 .header-intro {
@@ -13,16 +16,13 @@ body {
 	background: url(../images/sparkler.jpg) no-repeat center center fixed;
 	width: 100%;
 	height:auto;
-	background-attachment: fixed;
-	background-position: center center;
-	background-size: cover;
 
 	padding: 200px 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 h1, h2, h3, h4, h5 {
