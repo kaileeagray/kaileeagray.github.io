@@ -5,6 +5,9 @@ body {
 .header-intro {
 	border-top: 20px solid #D7D1C6;
 	background: url(../images/sparkler.jpg) no-repeat center center fixed;
+	width: 100%;
+	height:auto;
+
 	padding: 200px 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -39,6 +42,9 @@ h1 {
 .quote-section {
 	background: url(../images/fam_house.jpg) no-repeat center center fixed;
 	padding: 300px 0px;
+	width: 100%;
+	height:auto;
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
