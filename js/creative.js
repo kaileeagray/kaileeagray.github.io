@@ -1,5 +1,6 @@
 (function($) {
     "use strict"; // Start of use strict
+    var myLazyLoad = new LazyLoad();
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $(document).on('click', 'a.page-scroll', function(event) {
